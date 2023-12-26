@@ -1,0 +1,62 @@
+.todo-item {
+	margin: 0.5rem 0;
+	background: #8b005d;
+	box-shadow: 2px 7px 8px rgba(0, 0, 0, 0.4);
+	border: 2px solid transparent;
+	color: white;
+	padding: 0.5rem 2rem;
+	cursor: pointer;
+	border-radius: 5px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+.todo-text {
+	width: 100%;
+	text-align: left;
+}
+
+.completed-todo {
+	background-color: unset;
+	border: 2px solid rgba(128, 128, 128, 0.3);
+	color: grey;
+}
+
+.todo-icon {
+	margin-right: 0.4rem;
+	color: #ffe4c4;
+	font-size: 1.2rem;
+}
+
+.todo-item.completed-todo .todo-icon,
+.todo-item.completed-todo .todo-icon-delete,
+.todo-item.completed-todo .todo-icon-check {
+	color: gray;
+}
+
+.todo-icon-delete,
+.todo-icon-check {
+	cursor: pointer;
+	color: lightgrey;
+	padding: 0 7px;
+	font-size: 1.8rem;
+	transition: transform 0.3s;
+}
+
+.todo-icon-delete:hover,
+.todo-icon-check:hover {
+	transform: scale(1.3);
+}
+
+.todo-icon-delete:hover {
+	color: red;
+}
+.todo-icon-check:hover {
+	color: green;
+}
+
+@media (max-width: 360px) {
+	.todo-item {
+		font-size: 0.7rem;
+	}
+}
