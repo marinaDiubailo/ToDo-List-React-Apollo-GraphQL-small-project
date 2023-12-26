@@ -1,38 +1,19 @@
 #todos {
-	width: 35rem;
-	max-width: 90%;
-	margin: 2rem auto;
-	display: block;
+    width: 35rem;
+    max-width: 90%;
+    margin: 2rem auto;
+    display: block;
 }
 
-#todo-form {
-	width: 30rem;
-	max-width: 90%;
-	margin: 2rem auto;
-	padding: 2rem;
-	box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
-	border-radius: 10px;
-	background-color: rgb(216, 111, 164);
-	display: block;
-}
 p {
-	text-align: center;
-	font-size: 2rem;
-	color: #8b005d;
+    text-align: center;
+    font-size: 2rem;
+    color: #8b005d;
 }
 
 #todos-actions {
-	margin: 1rem auto;
-	width: 30rem;
-	display: flex;
-	justify-content: center;
-}
-#completed-todos-count {
-	padding: 3rem;
-	margin: -2rem auto;
-	width: 30rem;
-	color: #8b005d;
-	text-align: center;
-	font-size: 1.5rem;
-	display: block;
+    margin: 1rem auto;
+    width: 30rem;
+    display: flex;
+    justify-content: center;
 }
